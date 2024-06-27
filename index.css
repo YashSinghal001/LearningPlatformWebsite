@@ -304,6 +304,11 @@ h1,h2,h3,h4,h5,h6
 	text-align: center;
 	padding: 5px 15px;
 }
+.overlay a:hover
+{
+  background-color: #e2db56 !important;
+  color:  white !important;
+}
 .box:hover img{
     transform: scale(1.1);
 }
@@ -465,6 +470,13 @@ transition: .3s all linear;
   padding: 4px 8px!important;
   height: 30px!important;
   margin: 10px auto;
+  transition: all .3s linear !important;
+}
+.btn3:hover
+{
+  cursor: pointer;
+  background-color: #020aff !important;
+  color: white !important;
 }
 .btn4
 {
@@ -475,6 +487,13 @@ transition: .3s all linear;
   margin: 10px auto;
   color: white!important;
   font-weight: 560!important;;
+  transition: all .3s linear !important;
+}
+.btn4:hover
+{
+  cursor: pointer;
+  background-color: #fbf42de6 !important;
+  color: rgb(0, 0, 0) !important;
 }
 .borderout
 {
@@ -849,3 +868,29 @@ background-color: rgba(0, 76, 255, 0.079)!important;
   color:#3f4d62;
 }
 /* forms */
+
+.cancle
+{
+  border: 2px solid #020aff;
+  padding: 5px;
+  border-radius: 4px !important;
+  transition: all .3s linear;
+}
+.cancle:hover
+{
+  background-color: #020aff !important;
+  color: white !important;
+}
+.freee
+{
+  font-size: 50px !important; 
+  font-weight: bold; 
+  border: 2px solid #020aff; 
+  border-radius: 4px; cursor: pointer;
+   transition: all .3s linear;
+}
+.freee:hover
+{
+  background-color: #020aff !important;
+  color: white !important;
+}
